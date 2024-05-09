@@ -2,6 +2,6 @@ plugins {
     id 'war'
 }
 war {
-    from '/var/lib/jenkins/workspace/pipeline/'
+    from '/usr/share/tomcat9/webapps/ROOT'
     }
 
